@@ -2,7 +2,11 @@ import SwiftyJSON
 
 public class WeatherSPM {
     
-    func getResults() -> Int {
+    public init() {
+        
+    }
+    
+    public func getResults() -> Int {
         return 1
     }
 }
