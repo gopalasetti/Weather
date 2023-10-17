@@ -1,6 +1,8 @@
-public struct WeatherSPM {
-    public private(set) var text = "Hello, World!"
+import SwiftyJSON
 
-    public init() {
+public class WeatherSPM {
+    
+    func getResults() -> Int {
+        return 1
     }
 }
